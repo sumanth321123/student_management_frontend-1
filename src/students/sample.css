@@ -1,0 +1,7 @@
+.container
+{
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(0deg, #FFDEE9 0%,#B5FFFC 10%);
+  border-radius: 5px;
+}
