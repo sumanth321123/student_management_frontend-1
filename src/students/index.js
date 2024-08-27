@@ -3,7 +3,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import TextArea from "antd/es/input/TextArea";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
-
 const Student= () => {
     const [dataSource,setDataSource] = useState([])
     const [dataLoading,setDataLoading] = useState(false)
@@ -43,11 +42,11 @@ const Student= () => {
             handleGetStudentById(record._id)
           }} className="font-bold text-blue-500 cursor-pointer">{index+1}</div> 
         },
-        {
-          title: 'Mongo ID',
-          dataIndex: '_id',
-          key: 'mongoId',
-        },
+        // {
+        //   title: 'Mongo ID',
+        //   dataIndex: '_id',
+        //   key: 'mongoId',
+        // },
         {
           title: 'Roll no',
           dataIndex: 'rollNo',
